@@ -113,7 +113,7 @@ h2::after{
 .destination {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .location img {
@@ -121,10 +121,15 @@ width: 85%;
 }
 
 .location {
-   
     display: flex;
     flex-direction: column;
 
+}
+.reservation {
+    width: 20%;
+    height: 10%;
+    border-radius:3%;
+    background-color: ;
 }
 
 
