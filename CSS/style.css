@@ -106,8 +106,8 @@ h2::after {
 }
 
 .destination {
-  display: flex;
-  flex-flow: row nowrap;
+    display: flex;
+    flex-flow: row nowrap;
   justify-content: space-around;
 }
 
@@ -116,37 +116,12 @@ h2::after {
 }
 
 .location {
-  display: flex;
-  flex-direction: column;
+   
+    display: flex;
+    flex-direction: column;
+
 }
-/* maroua */
-#avis {
-  flex-direction: column;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 30px;
-  background-color: #ededed;
-  margin-top: 100px;
-}
-#avis article {
-  display: flex;
-}
-.advice {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-}
-.advice img {
-  width: 200px;
-  border-radius: 50%;
-}
-.advice h3 {
-  font-size: 40px;
-}
-.advice p {
-  width: 60%;
-  text-align: center;
-  margin: 21px;
-}
+
+
+
+
