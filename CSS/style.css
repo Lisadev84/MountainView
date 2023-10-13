@@ -40,16 +40,16 @@ nav ul li {
 }
 
 .banner {
-  height: 100vh;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/sources/img/header.jpg");
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/sources/img/header.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
 }
 
 .logo > img {
@@ -112,38 +112,41 @@ h2::after {
 }
 
 .location img {
-  width: 85%;
+    width: 100%;
 }
 
 .location {
-  display: flex;
-  flex-direction: column;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black ;
+    height: auto;
 }
-/* maroua */
-#avis {
-  flex-direction: column;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 30px;
-  background-color: #ededed;
-  margin-top: 100px;
+.reservation {
+    width: 50%;
+    height: 20%;
+    background-color:#015E49 ;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    bottom: 25px;
+    border:none;
 }
-#avis article {
-  display: flex;
+
+h3::after{
+    content: " ";
+    display: inherit;
+    border-top: 2px solid black;
+    margin: 10% auto;
+    width: 50px;
+    font-weight: 700;
+    padding-top: 10%;
 }
-.advice {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-}
-.advice img {
-  width: 200px;
-  border-radius: 50%;
-}
-.advice h3 {
-  font-size: 40px;
+.location p  {
+    text-align: center;
+    padding-bottom:20px;
 }
 .advice p {
   width: 60%;
